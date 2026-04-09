@@ -8,8 +8,6 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '[
-        "corneish_zen_left","corneish_zen_right"
-      ]'
+      board: '["corneish_zen_left//zmk","corneish_zen_right//zmk"]'
       kconfig: '["CONFIG_ZMK_POINTING=y\nCONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_RGB_UNDERGLOW=y"]'
       branches: '["zmkfirmware/zmk/main"]'
