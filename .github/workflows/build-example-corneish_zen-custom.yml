@@ -9,5 +9,5 @@ jobs:
     secrets: inherit
     with:
       board: '["corneish_zen_left//zmk","corneish_zen_right//zmk"]'
-      kconfig: '["CONFIG_ZMK_POINTING=y\nCONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_RGB_UNDERGLOW=y"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y\nCONFIG_ZMK_DISPLAY=y"]'
       branches: '["zmkfirmware/zmk/main"]'
